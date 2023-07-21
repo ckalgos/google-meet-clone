@@ -1,8 +1,8 @@
 import firebase from "firebase";
 
 var firebaseConfig = {
-  apiKey: "", // Add API Key
-  databaseURL:"" // Add databaseURL
+  apiKey: "AIzaSyDY5KhfYGLEUb6jF0UxM9awDTJla2zHlao", // Add API Key
+  databaseURL:"https://yarnn-fa419-default-rtdb.firebaseio.com" // Add databaseURL
 };
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig);

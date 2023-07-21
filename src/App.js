@@ -28,7 +28,7 @@ function App(props) {
     connectedRef.on("value", (snap) => {
       if (snap.val()) {
         const defaultPreference = {
-          audio: true,
+          audio: false,
           video: false,
           screen: false,
         };
